@@ -30,6 +30,7 @@ namespace fukuv0609
 
         private void label1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("小船翔");
             label1.Text = $" + { int.Parse(textBox1.Text) + int.Parse(textBox2.Text)}";
         }
     }
